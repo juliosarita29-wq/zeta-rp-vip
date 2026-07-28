@@ -7,9 +7,12 @@
 }
 
 body {
-  @apply bg-black text-white min-h-screen antialiased;
+  background: linear-gradient(180deg, #030712 0%, #090b11 50%, #000000 100%);
+  @apply text-white antialiased min-h-screen;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
+
+/* Legacy helper removed - overlay handled in App component using the exact class requested */
 
 ::selection {
   background: rgba(212, 175, 55, 0.35);

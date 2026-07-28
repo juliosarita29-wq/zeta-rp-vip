@@ -1,0 +1,11 @@
+High detail city skyline at night, Los Santos-style, cinematic lighting, wet streets reflections, neon signs, atmospheric fog, deep blue and magenta tones with warm orange/yellow window lights, ultra-detailed, 4k, realistic but slightly stylized, camera: 35mm, low angle, night scene, long exposure bokeh, post-processing: film grain, contrast boost, color grading to emulate GTA V nights.
+
+Negative prompt: lowres, blurry, deformed, watermark, text, logo, signature, bad anatomy.
+
+Use sampling steps 30-60, sampler Euler a or DPM++ 2M Karras, 4k (3840x2160) or 2560x1440 for faster.
+
+Example Replicate/Stable Diffusion command:
+- Upload prompt to your chosen Stable Diffusion provider (Replicate/OpenAI/Local SD WebUI)
+- Set guidance 7.5-9.0, steps 40, width 3840, height 2160
+
+If you want, I can provide a ready-to-run Node.js script for Replicate or a curl command for OpenAI Image API.
